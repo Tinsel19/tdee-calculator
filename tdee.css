@@ -1,0 +1,248 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    padding: 3rem;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #C60000;
+}
+
+h3 {
+    font-size: 1.3rem;
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+/* header  */
+.first-body-section {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+#age {
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.flex button {
+    background-color: #C60000;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: .5rem;
+    border: none;
+    box-shadow: 3px 3px 5px rgb(161, 161, 192);
+}
+
+.change {
+    background-color: white;
+    color: #C60000;
+}
+
+input {
+    width: 100%;
+    font-size: .9rem;
+    padding: .5rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(192, 191, 191);
+    box-shadow: 1px 1px 4px rgb(199, 196, 196);
+
+}
+
+
+/* gender section  */
+.sex-section {
+    margin-bottom: 30px;
+}
+
+.input-label {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+select {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem;
+    box-shadow: 1px 1px 5px grey;
+    color: black;
+    /* background-color: green; */
+    
+}
+
+select::selection {
+    background-color: aqua;
+    color: red;
+}
+option {
+    padding: .3rem;
+    font-size: .9rem;
+    border-radius: 5px;
+
+}
+
+/* height section  */
+.height-section {
+    margin-bottom: 20px;
+}
+
+.height {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+/* weight-section  */
+.weight-section{
+    margin-bottom: 20px;
+}
+
+/* goal section  */
+
+.percentage-section {
+    margin-bottom: 20px;
+}
+
+
+
+
+.center {
+    text-align: center;
+}
+.calculate {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #C60000;
+    color: white;
+    padding: .7rem;
+    width: 100%;
+    box-shadow: 2px 2px 6px grey;
+}
+
+
+/* hidden section  */
+.hide {
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 20px;
+    padding: .8rem;
+    
+}
+
+.t-calories {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.d-protein {
+    font-size: .9rem;
+}
+
+.recomend {
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.percent {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.activity-section {
+    margin-bottom: 20px;
+}
+
+
+.label {
+    font-size: .8rem;
+}
+
+.target {
+    font-weight: bold;
+}
+
+#calories{
+    font-weight: bold;
+}
+
+#tdee {
+    color: #C60000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    body{
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+
+    h1{
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .flex{
+        padding: .7rem;
+    }
+
+    .flex button {
+        padding: .3rem;
+        font-size: .7rem;
+    }
+
+    input{
+        font-size: .7rem;
+    }
+
+    option {
+        font-size: .7rem;
+    }
+
+    .input-label {
+        font-size: 1rem;
+    }
+
+    .t-calories {
+        font-size: .8rem;
+    }
+
+    .recomend {
+        font-size: .8rem;
+    }
+    #calories {
+        font-size: .8rem;
+    }
+
+    .label {
+        font-size: .6rem;
+    }
+}

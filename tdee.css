@@ -3,6 +3,23 @@
     padding: 0px;
     margin: 0px;
 }
+
+
+@font-face {
+    font-family: 'Art';
+    src: url('./articulatcf-normal-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nthing';
+    src: url('./NeuethingSans-Bold.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'ArtL';
+    src: url('./articulatcf-light-webfont.woff2') format('woff2');
+}
+
 html {
     font-family: 'Montserrat', sans-serif;
 }
@@ -12,19 +29,21 @@ body{
     box-shadow: 5px 5px 5px grey;
     border-radius: 10px;
     margin: 2rem;
+    font-family: 'Artl';
 }
 
 h1{
     text-align: center;
     margin-bottom: 40px;
     color: #C60000;
+    font-family: 'Nthing';
 }
 
 h3 {
     font-size: 1.3rem;
     text-align: left;
     vertical-align: middle;
-
+    font-family: 'Art';
 }
 
 /* header  */
@@ -51,6 +70,8 @@ h3 {
     padding: .5rem;
     border: none;
     box-shadow: 3px 3px 5px rgb(161, 161, 192);
+    font-family: 'Art';
+    font-weight: 500;
 }
 
 .change {
@@ -66,7 +87,7 @@ input {
     outline: none;
     border: 1px solid rgb(192, 191, 191);
     box-shadow: 1px 1px 4px rgb(199, 196, 196);
-
+    font-family: 'ArtL';
 }
 
 
@@ -78,6 +99,7 @@ input {
 .input-label {
     margin-bottom: 10px;
     font-size: 1.2rem;
+    font-family: 'Art';
 }
 
 select {
@@ -100,6 +122,8 @@ option {
     padding: .3rem;
     font-size: .9rem;
     border-radius: 5px;
+    font-family: 'ArtL';
+    font-weight: 500;
 
 }
 

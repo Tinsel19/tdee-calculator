@@ -108,15 +108,21 @@ calculate.addEventListener('click', () => {
             break;
         case 'a2':
             document.getElementById('tdee').innerHTML = Math.round(bmr*1.375) ; 
+            break;
         case 'a3':
             document.getElementById('tdee').innerHTML = Math.round(bmr*1.55);
+            break;
         case 'a4':
             document.getElementById('tdee').innerHTML =   Math.round(bmr*1.725) ;
+            break;
         case 'a5':
             document.getElementById('tdee').innerHTML = Math.round(bmr*1.9) ;
+            break;
         default:
             break;
     }
+    var text = document.getElementById('tdee').innerHTML;
+    console.log(text)
     // document.getElementById('result1').innerHTML = Math.round(bmr*1.2);
 })
 
